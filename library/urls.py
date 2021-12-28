@@ -1,0 +1,20 @@
+
+from django.contrib import admin
+from django.db.models import base
+from django.urls import path,include
+from rest_framework import routers
+from books.api import viewsets as booksviewsets
+
+
+
+
+route = routers.DefaultRouter()
+
+
+route.register(r'books',booksviewsets.Booksviewsets, basename="Books")
+
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include(route.urls))
+]
