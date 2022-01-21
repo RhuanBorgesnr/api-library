@@ -14,7 +14,7 @@ Uma api desenvolvida para o desafio da zipbank, nele criei uma api baseada em um
 ```
 docker-compose up --build
 ```
-## Faça as migrations
+## Não se esqueça das migrações
 ```
 docker-compose exec web python manage.py migrate
 ```
