@@ -1,6 +1,6 @@
 # Sobre o Projeto
 
-Uma api desenvolvida para o desafio da zipbank, nele criei uma api baseada em uma biblioteca em que você pode cadastrar, alterar e excluir livros.
+É uma api desenvolvida baseada em uma biblioteca em que você pode cadastrar, alterar e excluir livros.
 
 ## Tecnologias Utilizadas
 - Python 3.7
